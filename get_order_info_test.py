@@ -28,3 +28,5 @@ def test_get_order_info():
     response = post_new_order(data.order_body)
     status = get_order_info(response).status_code
     assert status == 200
+
+# Александра Дианова, 20-я когорта — Финальный проект. Инженер по тестированию плюс
